@@ -1,1 +1,128 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Tipografías (Guía de estilos KeikakuFlow) */
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-brand: "McLaren", ui-sans-serif, system-ui, sans-serif;
+
+  /* Violeta / Primario (brand/primary) */
+  --color-brand-50: #f3effe;
+  --color-brand-75: #cfbcfb;
+  --color-brand-100: #bca0fa;
+  --color-brand-200: #9f78f8;
+  --color-brand-300: #8b5cf6;
+  --color-brand-400: #6140ac;
+  --color-brand-500: #553896;
+
+  /* Lila / Botones Primary (botones/primary) */
+  --color-lilac-50: #f9f5fd;
+  --color-lilac-75: #e8d8f8;
+  --color-lilac-100: #dfc7f6;
+  --color-lilac-200: #d1aff2;
+  --color-lilac-300: #c79fef;
+  --color-lilac-400: #8b6fa7;
+  --color-lilac-500: #796192;
+
+  /* Rosa / Secundario (brand/secondary) */
+  --color-pink-50: #fef5f9;
+  --color-pink-75: #fad6e8;
+  --color-pink-100: #f7c5df;
+  --color-pink-200: #f4acd1;
+  --color-pink-300: #f29bc7;
+  --color-pink-400: #a96d8b;
+  --color-pink-500: #945f79;
+
+  /* Tinta / Modo Oscuro (neutral/ink · B50–B500) */
+  --color-ink-50: #e8e7e9;
+  --color-ink-75: #a09ea3;
+  --color-ink-100: #78767d;
+  --color-ink-200: #3e3b45;
+  --color-ink-300: #17131f;
+  --color-ink-400: #100d16;
+  --color-ink-500: #0e0c13;
+
+  /* Marfil claro (neutral/ivory) */
+  --color-ivory-50: #fefefd;
+  --color-ivory-75: #fcfaf8;
+  --color-ivory-100: #faf8f5;
+  --color-ivory-200: #f8f5f1;
+  --color-ivory-300: #f7f3ee;
+  --color-ivory-400: #adaaa7;
+  --color-ivory-500: #979491;
+
+  /* Neutros / Superficies, bordes y texto */
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #f7f7f7;
+  --color-neutral-100: #f0f0f0;
+  --color-neutral-150: #e8e8e8;
+  --color-neutral-200: #dddddd;
+  --color-neutral-250: #d0d0d0;
+  --color-neutral-300: #bbbbbb;
+  --color-neutral-350: #999999;
+  --color-neutral-400: #888888;
+  --color-neutral-450: #777777;
+  --color-neutral-500: #444444;
+  --color-neutral-550: #333333;
+  --color-neutral-600: #111111;
+
+  /* Colores funcionales */
+  --color-success: #15803d;
+  --color-success-bg: #ecfdf3;
+  --color-warning: #b45309;
+  --color-warning-bg: #fff7ed;
+  --color-error: #b91c1c;
+  --color-error-bg: #fef2f2;
+  --color-info: #1d4ed8;
+  --color-info-bg: #eff6ff;
+
+  /* Tokens semánticos de tema (cambian automáticamente entre claro y oscuro) */
+  --color-surface-canvas: var(--kf-surface-canvas);
+  --color-surface-card: var(--kf-surface-card);
+  --color-surface-elevated: var(--kf-surface-elevated);
+  --color-surface-subtle: var(--kf-surface-subtle);
+  --color-surface-deep: var(--kf-surface-deep);
+  --color-border-subtle: var(--kf-border-subtle);
+  --color-border-accent: var(--kf-border-accent);
+  --color-text-main: var(--kf-text-main);
+  --color-text-muted: var(--kf-text-muted);
+}
+
+:root {
+  --kf-surface-canvas: #e8e8e8;
+  --kf-surface-card: #ffffff;
+  --kf-surface-elevated: #fefefd;
+  --kf-surface-subtle: #f0f0f0;
+  --kf-surface-deep: #f7f7f7;
+  --kf-border-subtle: #d0d0d0;
+  --kf-border-accent: #c79fef;
+  --kf-text-main: #17131f;
+  --kf-text-muted: #777777;
+}
+
+.dark {
+  --kf-surface-canvas: #17131f;
+  --kf-surface-card: #201a2b;
+  --kf-surface-elevated: #282136;
+  --kf-surface-subtle: #120e19;
+  --kf-surface-deep: #0e0b14;
+  --kf-border-subtle: #3e3b45;
+  --kf-border-accent: #8b5cf6;
+  --kf-text-main: #e8e7e9;
+  --kf-text-muted: #a09ea3;
+}
+
+/* Degradado oficial de marca (#8B5CF6 -> #F29BC7) */
+.bg-brand-gradient {
+  background: linear-gradient(135deg, #8b5cf6 0%, #f29bc7 100%);
+}
+
+.text-brand-gradient {
+  background: linear-gradient(135deg, #8b5cf6 0%, #f29bc7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
