@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "home": "Home",
+    "homeAria": "KeikakuFlow Home",
+    "projects": "Projects",
+    "loadingProjects": "Loading projects",
+    "newProject": "New project",
+    "searchPlaceholder": "Search notes, diagrams, #tags or channels...",
+    "searchAria": "Search notes, diagrams, tags or channels",
+    "notifications": "Notifications",
+    "calendar": "Calendar",
+    "settings": "Settings",
+    "accountSettings": "Account settings",
+    "projectSettings": "Project settings",
+    "userMenu": "User menu",
+    "logout": "Log out",
+    "theme": {
+      "lightMode": "Light mode",
+      "darkMode": "Dark mode",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "language": "Language"
+  },
+  "accountSettings": {
+    "sectionLabel": "Account settings",
+    "configSubtitle": "Settings",
+    "close": "Close settings",
+    "tabs": {
+      "appearance": "Appearance & Language",
+      "profile": "Account Profile"
+    },
+    "appearance": {
+      "title": "Appearance & Language",
+      "subtitle": "Customize KeikakuFlow's visual theme and interface language.",
+      "themeLabel": "Interface theme",
+      "themeHint": "Choose how you prefer to view KeikakuFlow. Changes apply immediately.",
+      "lightTitle": "Light mode",
+      "lightDesc": "Bright surfaces with crisp contrast for well-lit environments.",
+      "darkTitle": "Dark mode",
+      "darkDesc": "Deep ink tones designed to reduce eye strain.",
+      "activeBadge": "Active",
+      "languageLabel": "Language",
+      "languageHint": "Select the primary language for the application."
+    },
+    "profile": {
+      "title": "Account Profile",
+      "subtitle": "Customize how your profile appears to other users and collaborators.",
+      "nameLabel": "Name",
+      "handleLabel": "Username",
+      "avatarLabel": "Profile picture",
+      "avatarRecommended": "(Recommended: 512 × 512 px)",
+      "changeAvatar": "Change avatar",
+      "removeAvatar": "Remove",
+      "avatarHint": "Supports PNG, JPG or SVG formats up to 5 MB.",
+      "bioLabel": "Bio",
+      "bioPlaceholder": "Tell your team about yourself or your role in projects...",
+      "bioHint": "Visible on your profile and in shared projects.",
+      "cancel": "Cancel",
+      "save": "Save changes",
+      "saved": "Changes saved"
+    },
+    "logout": "Log out"
+  },
+  "auth": {
+    "tabs": {
+      "login": "Log In",
+      "register": "Sign Up"
+    },
+    "fields": {
+      "usernameOrEmail": "Email / Username",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "passwordPlaceholder": "Password ******"
+    },
+    "actions": {
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "loginSubmit": "Log In",
+      "registerSubmit": "Sign Up",
+      "submitting": "Processing...",
+      "forgotPassword": "Forgot your password?",
+      "alreadyHaveAccount": "Already have an account? Log in"
+    },
+    "errors": {
+      "invalidCredentials": "Invalid credentials or inactive account",
+      "registerFailed": "Could not register user. Please check your information.",
+      "usernameRequired": "Username or email is required",
+      "passwordRequired": "Password is required",
+      "usernameMinLength": "Username must have at least 3 characters",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordMinLength": "Password must be at least 6 characters"
+    },
+    "forgotModal": {
+      "title": "Reset password",
+      "description": "To reset your password, contact your workspace administrator or request a temporary reset link.",
+      "close": "Understood"
+    }
+  },
+  "home": {
+    "tabs": {
+      "home": "Home",
+      "myProjects": "My projects",
+      "companies": "Companies",
+      "agenda": "Agenda"
+    },
+    "header": {
+      "title": "Your space, in motion.",
+      "subtitle": "Hello, {{name}}. Here is what's on your plate today.",
+      "newProject": "New project"
+    },
+    "stats": {
+      "activeProjects": "Active projects",
+      "activeProjectsCount": "{{count}} projects",
+      "today": "For today",
+      "todayCount": "{{count}} tasks",
+      "todayShort": "{{count}} tasks today",
+      "companies": "My companies",
+      "companiesCount": "{{count}} spaces",
+      "companiesShort": "{{count}} companies"
+    },
+    "projects": {
+      "title": "My projects",
+      "viewAll": "View all",
+      "personal": "Personal",
+      "tasksProgress": "{{completed}} of {{total}} tasks",
+      "members": "{{count}} members",
+      "onlyYou": "Only you"
+    },
+    "companies": {
+      "title": "My companies",
+      "admin": "Admin",
+      "member": "Member"
+    },
+    "calendar": {
+      "todayPrefix": "Today, {{date}}"
+    },
+    "agenda": {
+      "title": "Your agenda for today",
+      "pendingCount": "{{count}} pending tasks",
+      "viewAllTasks": "View all my tasks",
+      "nextDelivery": "Next delivery",
+      "deliveryTag": "UPCOMING DELIVERY"
+    }
+  }
+}

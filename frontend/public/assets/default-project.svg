@@ -1,0 +1,18 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="kf-proj-grad" x1="16" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#F29BC7" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="64" fill="#17131F" />
+  <path
+    d="M34 46C34 41.5817 37.5817 38 42 38H55.5C57.6217 38 59.6566 38.8429 61.1569 40.3431L65.8431 45.0294C67.3434 46.5297 69.3783 47.3726 71.5 47.3726H86C90.4183 47.3726 94 50.9543 94 55.3726V82C94 86.4183 90.4183 90 86 90H42C37.5817 90 34 86.4183 34 82V46Z"
+    stroke="url(#kf-proj-grad)"
+    stroke-width="6"
+    stroke-linejoin="round"
+  />
+  <circle cx="52" cy="68" r="4" fill="url(#kf-proj-grad)" />
+  <circle cx="64" cy="68" r="4" fill="url(#kf-proj-grad)" />
+  <circle cx="76" cy="68" r="4" fill="url(#kf-proj-grad)" />
+</svg>

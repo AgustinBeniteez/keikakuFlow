@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "homeAria": "Inicio KeikakuFlow",
+    "projects": "Proyectos",
+    "loadingProjects": "Cargando proyectos",
+    "newProject": "Nuevo proyecto",
+    "searchPlaceholder": "Buscar notas, diagramas, #tags o canales...",
+    "searchAria": "Buscar notas, diagramas, etiquetas o canales",
+    "notifications": "Notificaciones",
+    "calendar": "Calendario",
+    "settings": "Ajustes",
+    "accountSettings": "Ajustes de cuenta",
+    "projectSettings": "Ajustes del proyecto",
+    "userMenu": "Menú de usuario",
+    "logout": "Cerrar sesión",
+    "theme": {
+      "lightMode": "Modo claro",
+      "darkMode": "Modo oscuro",
+      "light": "Claro",
+      "dark": "Oscuro"
+    },
+    "language": "Idioma"
+  },
+  "accountSettings": {
+    "sectionLabel": "Ajustes de cuenta",
+    "configSubtitle": "Configuración",
+    "close": "Cerrar ajustes",
+    "tabs": {
+      "appearance": "Apariencia e Idioma",
+      "profile": "Perfil de Cuenta"
+    },
+    "appearance": {
+      "title": "Apariencia e Idioma",
+      "subtitle": "Personaliza el tema visual y el idioma de la interfaz de KeikakuFlow.",
+      "themeLabel": "Tema de la interfaz",
+      "themeHint": "Elige cómo prefieres ver KeikakuFlow. El cambio se aplica al instante.",
+      "lightTitle": "Modo claro",
+      "lightDesc": "Superficies claras y alto contraste para entornos iluminados.",
+      "darkTitle": "Modo oscuro",
+      "darkDesc": "Paleta oscura en tonos tinta para reducir la fatiga visual.",
+      "activeBadge": "Activo",
+      "languageLabel": "Idioma",
+      "languageHint": "Selecciona el idioma principal de la aplicación."
+    },
+    "profile": {
+      "title": "Perfil de Cuenta",
+      "subtitle": "Personaliza cómo aparece tu perfil a otros usuarios y colaboradores.",
+      "nameLabel": "Nombre",
+      "handleLabel": "Usuario",
+      "avatarLabel": "Foto de perfil",
+      "avatarRecommended": "(Recomendado: 512 × 512 px)",
+      "changeAvatar": "Cambiar avatar",
+      "removeAvatar": "Eliminar",
+      "avatarHint": "Soporta formatos PNG, JPG o SVG hasta 5 MB.",
+      "bioLabel": "Descripción",
+      "bioPlaceholder": "Cuéntale a tu equipo sobre ti o tu rol en los proyectos...",
+      "bioHint": "Visible en tu perfil y en los proyectos compartidos.",
+      "cancel": "Cancelar",
+      "save": "Guardar cambios",
+      "saved": "Cambios guardados"
+    },
+    "logout": "Cerrar sesión"
+  },
+  "auth": {
+    "tabs": {
+      "login": "Iniciar Sesión",
+      "register": "Registrarse"
+    },
+    "fields": {
+      "usernameOrEmail": "Email / Usuario",
+      "username": "Nombre de usuario",
+      "email": "Email",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Contraseña ******"
+    },
+    "actions": {
+      "showPassword": "Mostrar contraseña",
+      "hidePassword": "Ocultar contraseña",
+      "loginSubmit": "Iniciar Sesión",
+      "registerSubmit": "Registrarse",
+      "submitting": "Procesando...",
+      "forgotPassword": "¿Has olvidado tu contraseña?",
+      "alreadyHaveAccount": "¿Ya tienes cuenta? Inicia sesión"
+    },
+    "errors": {
+      "invalidCredentials": "Credenciales inválidas o cuenta inactiva",
+      "registerFailed": "No se pudo registrar el usuario. Comprueba los datos.",
+      "usernameRequired": "El usuario o email es obligatorio",
+      "passwordRequired": "La contraseña es obligatoria",
+      "usernameMinLength": "El usuario debe tener al menos 3 caracteres",
+      "emailInvalid": "Introduce un correo electrónico válido",
+      "passwordMinLength": "La contraseña debe tener al menos 6 caracteres"
+    },
+    "forgotModal": {
+      "title": "Recuperar contraseña",
+      "description": "Para restablecer tu contraseña, introduce tu correo o contacta con el administrador del sistema para generar una nueva clave temporal.",
+      "close": "Entendido"
+    }
+  },
+  "home": {
+    "tabs": {
+      "home": "Inicio",
+      "myProjects": "Mis proyectos",
+      "companies": "Empresas",
+      "agenda": "Agenda"
+    },
+    "header": {
+      "title": "Tu espacio, en movimiento.",
+      "subtitle": "Hola, {{name}}. Esto es lo que tienes entre manos hoy.",
+      "newProject": "Nuevo proyecto"
+    },
+    "stats": {
+      "activeProjects": "Proyectos activos",
+      "activeProjectsCount": "{{count}} proyectos",
+      "today": "Para hoy",
+      "todayCount": "{{count}} tareas",
+      "todayShort": "{{count}} tareas hoy",
+      "companies": "Mis empresas",
+      "companiesCount": "{{count}} espacios",
+      "companiesShort": "{{count}} empresas"
+    },
+    "projects": {
+      "title": "Mis proyectos",
+      "viewAll": "Ver todos",
+      "personal": "Personal",
+      "tasksProgress": "{{completed}} de {{total}} tareas",
+      "members": "{{count}} miembros",
+      "onlyYou": "Solo tú"
+    },
+    "companies": {
+      "title": "Mis empresas",
+      "admin": "Administrador",
+      "member": "Miembro"
+    },
+    "calendar": {
+      "todayPrefix": "Hoy, {{date}}"
+    },
+    "agenda": {
+      "title": "Tu agenda de hoy",
+      "pendingCount": "{{count}} tareas pendientes",
+      "viewAllTasks": "Ver todas mis tareas",
+      "nextDelivery": "Próxima entrega",
+      "deliveryTag": "PRÓXIMA ENTREGA"
+    }
+  }
+}

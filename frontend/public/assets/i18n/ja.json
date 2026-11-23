@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "homeAria": "KeikakuFlow ホーム",
+    "projects": "プロジェクト",
+    "loadingProjects": "プロジェクトを読み込み中",
+    "newProject": "新規プロジェクト",
+    "searchPlaceholder": "ノート、図、#タグ、チャンネルを検索...",
+    "searchAria": "ノート、図、タグ、チャンネルを検索",
+    "notifications": "通知",
+    "calendar": "カレンダー",
+    "settings": "設定",
+    "accountSettings": "アカウント設定",
+    "projectSettings": "プロジェクト設定",
+    "userMenu": "ユーザーメニュー",
+    "logout": "ログアウト",
+    "theme": {
+      "lightMode": "ライトモード",
+      "darkMode": "ダークモード",
+      "light": "ライト",
+      "dark": "ダーク"
+    },
+    "language": "言語"
+  },
+  "accountSettings": {
+    "sectionLabel": "アカウント設定",
+    "configSubtitle": "設定",
+    "close": "設定を閉じる",
+    "tabs": {
+      "appearance": "外観と言語",
+      "profile": "アカウントプロフィール"
+    },
+    "appearance": {
+      "title": "外観と言語",
+      "subtitle": "KeikakuFlow の表示テーマとインターフェース言語をカスタマイズします。",
+      "themeLabel": "インターフェーステーマ",
+      "themeHint": "KeikakuFlow の表示スタイルを選択します。変更は即座に反映されます。",
+      "lightTitle": "ライトモード",
+      "lightDesc": "明るい環境に最適なクリアで視認性の高い配色です。",
+      "darkTitle": "ダークモード",
+      "darkDesc": "目の疲れを抑えるダークなインク調の配色です。",
+      "activeBadge": "適用中",
+      "languageLabel": "言語",
+      "languageHint": "アプリケーションの表示言語を選択します。"
+    },
+    "profile": {
+      "title": "アカウントプロフィール",
+      "subtitle": "他のユーザーやコラボレーターに表示されるプロフィールをカスタマイズします。",
+      "nameLabel": "名前",
+      "handleLabel": "ユーザー名",
+      "avatarLabel": "プロフィール画像",
+      "avatarRecommended": "（推奨: 512 × 512 px）",
+      "changeAvatar": "アバターを変更",
+      "removeAvatar": "削除",
+      "avatarHint": "PNG・JPG・SVG 形式（最大 5 MB）に対応しています。",
+      "bioLabel": "自己紹介",
+      "bioPlaceholder": "チームに向けて自己紹介や担当役割を記入しましょう...",
+      "bioHint": "プロフィールや共有プロジェクトに表示されます。",
+      "cancel": "キャンセル",
+      "save": "変更を保存",
+      "saved": "変更を保存しました"
+    },
+    "logout": "ログアウト"
+  },
+  "auth": {
+    "tabs": {
+      "login": "ログイン",
+      "register": "新規登録"
+    },
+    "fields": {
+      "usernameOrEmail": "メールアドレス / ユーザー名",
+      "username": "ユーザー名",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "passwordPlaceholder": "パスワード ******"
+    },
+    "actions": {
+      "showPassword": "パスワードを表示",
+      "hidePassword": "パスワードを隠す",
+      "loginSubmit": "ログイン",
+      "registerSubmit": "新規登録",
+      "submitting": "処理中...",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "alreadyHaveAccount": "既にアカウントをお持ちですか？ログイン"
+    },
+    "errors": {
+      "invalidCredentials": "認証情報が無効であるか、アカウントが無効化されています",
+      "registerFailed": "ユーザー登録に失敗しました。入力内容をご確認ください。",
+      "usernameRequired": "ユーザー名またはメールアドレスは必須です",
+      "passwordRequired": "パスワードは必須です",
+      "usernameMinLength": "ユーザー名は3文字以上である必要があります",
+      "emailInvalid": "有効なメールアドレスを入力してください",
+      "passwordMinLength": "パスワードは6文字以上である必要があります"
+    },
+    "forgotModal": {
+      "title": "パスワード再設定",
+      "description": "パスワードを再設定するには、ワークスペース管理者にお問い合わせいただくか、登録メール宛てに再設定リンクを申請してください。",
+      "close": "閉じる"
+    }
+  },
+  "home": {
+    "tabs": {
+      "home": "ホーム",
+      "myProjects": "マイプロジェクト",
+      "companies": "企業",
+      "agenda": "予定"
+    },
+    "header": {
+      "title": "動き出す、あなたの空間。",
+      "subtitle": "こんにちは、{{name}}さん。本日のタスクと進捗です。",
+      "newProject": "新規プロジェクト"
+    },
+    "stats": {
+      "activeProjects": "進行中プロジェクト",
+      "activeProjectsCount": "{{count}}件のプロジェクト",
+      "today": "本日分",
+      "todayCount": "{{count}}件のタスク",
+      "todayShort": "本日 {{count}}件",
+      "companies": "所属企業",
+      "companiesCount": "{{count}}スペース",
+      "companiesShort": "{{count}}社"
+    },
+    "projects": {
+      "title": "マイプロジェクト",
+      "viewAll": "すべて見る",
+      "personal": "個人",
+      "tasksProgress": "{{completed}} / {{total}} タスク完了",
+      "members": "{{count}}人のメンバー",
+      "onlyYou": "あなたのみ"
+    },
+    "companies": {
+      "title": "所属企業",
+      "admin": "管理者",
+      "member": "メンバー"
+    },
+    "calendar": {
+      "todayPrefix": "本日、{{date}}"
+    },
+    "agenda": {
+      "title": "本日の予定",
+      "pendingCount": "未完了タスク {{count}}件",
+      "viewAllTasks": "すべてのタスクを見る",
+      "nextDelivery": "次回の提出",
+      "deliveryTag": "次回提出"
+    }
+  }
+}

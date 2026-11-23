@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <!-- ==================== FONDOS DECORATIVOS ==================== -->
+
+  <!-- Fondo Login: Carpeta inclinada -->
+  <symbol id="bg-folder" viewBox="0 0 316 284" fill="none">
+    <path
+      d="M0.558881 138.667C-1.25723 133.452 1.49869 127.751 6.71439 125.935L130.429 82.8577L120.061 53.0803C118.244 47.8645 121 42.1641 126.216 40.348L240.487 0.558857C245.703 -1.25726 251.403 1.49866 253.219 6.71437L314.927 183.933C316.743 189.149 313.987 194.849 308.771 196.665L61.3419 282.82C56.1262 284.636 50.4258 281.881 48.6097 276.665L0.558881 138.667Z"
+      fill="currentColor"
+    />
+  </symbol>
+
+  <!-- Fondo Login: Lupa -->
+  <symbol id="bg-search" viewBox="0 0 253 257" fill="none">
+    <path
+      d="M168.296 64.4526C180.26 110.418 152.913 157.322 107.215 169.216C61.5175 181.111 14.7735 153.491 2.80964 107.526C-9.15425 61.5608 18.1925 14.6565 63.8902 2.76221C109.588 -9.13212 156.332 18.4876 168.296 64.4526ZM32.4884 99.8009C40.161 129.279 70.1386 146.992 99.4453 139.364C128.752 131.736 146.29 101.655 138.617 72.1775C130.944 42.6995 100.967 24.9866 71.6603 32.6146C42.3536 40.2426 24.8158 70.3229 32.4884 99.8009Z"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      fill="currentColor"
+    />
+    <path
+      d="M129.996 155.537C126.213 151.513 126.409 145.184 130.434 141.402L143.55 129.074C147.574 125.292 153.903 125.488 157.685 129.512L249.354 227.045C253.137 231.07 252.941 237.398 248.916 241.181L235.8 253.508C231.776 257.291 225.447 257.094 221.665 253.07L129.996 155.537Z"
+      fill="currentColor"
+    />
+  </symbol>
+
+  <!-- Fondo Login: Símbolo K inclinado -->
+  <symbol id="bg-logo-k" viewBox="0 0 237 293" fill="none">
+    <path
+      d="M99.003 8.30743C100.246 8.63384 101.177 9.21092 101.693 10.0938C102.208 10.9766 102.253 12.0712 101.927 13.314L77.8581 104.953C77.7082 105.524 77.6486 105.947 77.6572 106.24C77.6615 106.384 77.6822 106.479 77.7044 106.536C77.7242 106.587 77.7411 106.601 77.744 106.603C77.744 106.603 77.7632 106.617 77.8206 106.619C77.8822 106.622 77.9787 106.61 78.1169 106.567C78.3961 106.479 78.7762 106.284 79.2661 105.956L186.364 34.2347C188.491 32.8103 190.81 32.4201 193.286 33.0704L234.7 43.9476C235.308 44.1074 235.811 44.2999 236.183 44.5377C236.554 44.7745 236.85 45.0938 236.924 45.5189C236.998 45.944 236.826 46.3448 236.556 46.6925C236.286 47.0416 235.877 47.3923 235.357 47.7473L121.963 125.302C121.021 125.946 120.442 126.673 120.175 127.475C119.909 128.276 119.936 129.206 120.304 130.286L135.081 173.673L121.501 170.106C117.928 169.168 113.557 168.98 109.533 171.329C105.509 173.679 103.525 177.579 102.587 181.151L98.713 195.9L85.7606 158.461C85.381 157.364 84.8959 156.829 84.383 156.652C83.8702 156.475 83.1587 156.595 82.1827 157.223L63.3706 169.334C61.4239 170.588 60.1633 172.325 59.5751 174.564L38.9779 252.986C38.6515 254.229 38.0744 255.16 37.1915 255.676C36.3087 256.191 35.214 256.236 33.9713 255.91L3.13113 247.81C1.88836 247.483 0.957074 246.906 0.44152 246.023C-0.0740408 245.141 -0.119008 244.046 0.207403 242.803L63.1563 3.13112C63.4827 1.88834 64.0598 0.957061 64.9426 0.441506C65.8255 -0.0740485 66.9201 -0.119021 68.1629 0.207388L99.003 8.30743Z"
+      fill="currentColor"
+    />
+    <path
+      d="M174.327 288.902C174.531 289.501 174.645 290.038 174.645 290.5C174.645 290.965 174.529 291.393 174.229 291.715C173.93 292.036 173.511 292.183 173.047 292.216C172.586 292.249 172.042 292.174 171.43 292.013L131.779 281.598C129.282 280.943 127.592 279.377 126.748 276.937L120.313 258.335L168.2 270.913L174.327 288.902Z"
+      fill="currentColor"
+    />
+    <path
+      d="M119.418 178.036L174.049 192.385C176.398 193.002 177.882 192.136 178.499 189.786L180.582 181.856C181.199 179.506 182.683 178.64 185.032 179.257L215.872 187.357C219.984 188.437 221.5 191.033 220.42 195.145L202.369 263.874C201.135 268.574 198.168 270.306 193.468 269.072L101.829 245.003C97.1296 243.769 95.397 240.802 96.6313 236.103L110.517 183.234C111.751 178.534 114.718 176.802 119.418 178.036ZM177.671 203.697C182.371 204.932 185.337 203.199 186.572 198.5L188.655 190.569L209.802 196.124L193.371 258.685L107.018 236.005L119.515 188.423L177.671 203.697Z"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      fill="currentColor"
+    />
+  </symbol>
+
+  <!-- ==================== ICONOGRAFÍA UI (24x24) ==================== -->
+
+  <symbol id="icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 10.5 12 3l9 7.5" />
+    <path d="M5 9.5V19a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9.5" />
+    <path d="M9 21v-6a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6" />
+  </symbol>
+
+  <symbol id="icon-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 5v14M5 12h14" />
+  </symbol>
+
+  <symbol id="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="11" r="7.5" />
+    <path d="m20 20-3.8-3.8" />
+  </symbol>
+
+  <symbol id="icon-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" />
+    <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+  </symbol>
+
+  <symbol id="icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="18" height="18" x="3" y="4" rx="2" />
+    <path d="M16 2v4M8 2v4M3 10h18" />
+  </symbol>
+
+  <symbol id="icon-settings" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="3" />
+    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z" />
+  </symbol>
+
+  <symbol id="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="4" />
+    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+  </symbol>
+
+  <symbol id="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+  </symbol>
+
+  <symbol id="icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m6 9 6 6 6-6" />
+  </symbol>
+
+  <symbol id="icon-logout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+    <polyline points="16 17 21 12 16 7" />
+    <line x1="21" y1="12" x2="9" y2="12" />
+  </symbol>
+
+  <symbol id="icon-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+    <circle cx="12" cy="7" r="4" />
+  </symbol>
+
+  <symbol id="icon-palette" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="13.5" cy="6.5" r="0.5" fill="currentColor" />
+    <circle cx="17.5" cy="10.5" r="0.5" fill="currentColor" />
+    <circle cx="8.5" cy="7.5" r="0.5" fill="currentColor" />
+    <circle cx="6.5" cy="12.5" r="0.5" fill="currentColor" />
+    <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2Z" />
+  </symbol>
+
+  <symbol id="icon-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10" />
+    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+    <path d="M2 12h20" />
+  </symbol>
+
+  <symbol id="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 6 6 18M6 6l12 12" />
+  </symbol>
+
+  <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 6 9 17l-5-5" />
+  </symbol>
+
+  <symbol id="icon-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="20" height="16" x="2" y="4" rx="2" />
+    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+  </symbol>
+
+  <symbol id="icon-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+    <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+  </symbol>
+
+  <symbol id="icon-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+    <circle cx="12" cy="12" r="3" />
+  </symbol>
+
+  <symbol id="icon-eye-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9.88 9.88a3 3 0 1 0 4.24 4.24" />
+    <path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68" />
+    <path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61" />
+    <line x1="2" x2="22" y1="2" y2="22" />
+  </symbol>
+
+  <symbol id="icon-help-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10" />
+    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+    <path d="M12 17h.01" />
+  </symbol>
+
+  <symbol id="icon-alert-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10" />
+    <line x1="12" y1="8" x2="12" y2="12" />
+    <line x1="12" y1="16" x2="12.01" y2="16" />
+  </symbol>
+
+  <symbol id="icon-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 17 17 7M7 7h10v10" />
+  </symbol>
+
+  <symbol id="icon-chevron-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m15 18-6-6 6-6" />
+  </symbol>
+
+  <symbol id="icon-chevron-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m9 18 6-6-6-6" />
+  </symbol>
+
+  <symbol id="icon-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+    <circle cx="9" cy="7" r="4" />
+    <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+  </symbol>
+
+  <symbol id="icon-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="16" height="20" x="4" y="2" rx="2" ry="2" />
+    <path d="M9 22v-4h6v4M8 6h.01M16 6h.01M12 6h.01M12 10h.01M12 14h.01M16 10h.01M16 14h.01M8 10h.01M8 14h.01" />
+  </symbol>
+
+  <symbol id="icon-layout-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="7" height="7" x="3" y="3" rx="1" />
+    <rect width="7" height="7" x="14" y="3" rx="1" />
+    <rect width="7" height="7" x="14" y="14" rx="1" />
+    <rect width="7" height="7" x="3" y="14" rx="1" />
+  </symbol>
+
+  <symbol id="icon-network" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="9" y="2" width="6" height="6" rx="1" />
+    <rect x="16" y="16" width="6" height="6" rx="1" />
+    <rect x="2" y="16" width="6" height="6" rx="1" />
+    <path d="M12 8v4M5 12h14M5 12v4M19 12v4" />
+  </symbol>
+
+  <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10" />
+    <polyline points="12 6 12 12 16 14" />
+  </symbol>
+</svg>
