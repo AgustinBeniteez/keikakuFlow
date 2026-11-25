@@ -1,18 +1,17 @@
-# KeikakuFlow
-
+![KeiKaKuFlow](logo.webp)
 Proyecto de Fin de Grado (TFG) - 2º DAW (Desarrollo de Aplicaciones Web)  
 **Autor:** Agustín Benítez López  
 **Curso:** 2026/2027  
 
 ---
 
-## 📌 Descripción
+## Descripción
 
 **KeikakuFlow** es una plataforma web para la planificación, documentación y seguimiento de proyectos de desarrollo de software. Combina la agilidad de los canales temáticos con un entorno de notas enriquecidas en Markdown, canvas para diagramas interactivos y gestión de tareas.
 
 ---
 
-## 🏗️ Estructura del Proyecto
+## Estructura del Proyecto
 
 El repositorio está organizado en una arquitectura monorepo:
 
@@ -22,7 +21,7 @@ El repositorio está organizado en una arquitectura monorepo:
 
 ---
 
-## 🚀 Puesta en Marcha
+## Puesta en Marcha
 
 ### Prerrequisitos
 
