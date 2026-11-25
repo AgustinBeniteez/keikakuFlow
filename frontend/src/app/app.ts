@@ -1,7 +1,7 @@
 import { Component, inject, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { LanguageService } from './core/services/language.service';
-import { ThemeService } from './core/services/theme.service';
+import { LanguageService } from './shared/language/language.service';
+import { ThemeService } from './shared/theme/theme.service';
 
 @Component({
   selector: 'app-root',

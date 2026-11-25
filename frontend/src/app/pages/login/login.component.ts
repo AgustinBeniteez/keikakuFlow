@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
-import { ThemeService } from '../../../core/services/theme.service';
-import { LogoComponent } from '../../../shared/components/logo/logo.component';
-import { SvgIconComponent } from '../../../shared/components/svg-icon/svg-icon.component';
+import { ThemeService } from '../../shared/theme/theme.service';
+import { LogoComponent } from '../../shared/components/logo/logo.component';
+import { SvgIconComponent } from '../../shared/components/svg-icon/svg-icon.component';
 
 type AuthTab = 'login' | 'register';
 
