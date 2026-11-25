@@ -1,0 +1,41 @@
+<div
+  class="min-h-screen bg-surface-canvas relative overflow-hidden transition-colors duration-200"
+>
+  <!-- Botón de modo claro / oscuro -->
+  <button
+    type="button"
+    (click)="themeService.toggle()"
+    [attr.aria-label]="themeService.theme() === 'dark' ? 'Modo claro' : 'Modo oscuro'"
+    [attr.title]="themeService.theme() === 'dark' ? 'Modo claro' : 'Modo oscuro'"
+    class="fixed top-3 right-3 sm:top-5 sm:right-5 z-20 p-2 rounded-full bg-surface-card/90 backdrop-blur-md border border-border-subtle text-text-muted hover:text-text-main shadow-xs transition-colors cursor-pointer"
+  >
+    <kf-icon
+      [name]="themeService.theme() === 'dark' ? 'icon-sun' : 'icon-moon'"
+      class="w-4 h-4"
+    />
+  </button>
+
+  <!-- Elementos decorativos de fondo -->
+  <div
+    class="pointer-events-none select-none text-neutral-0 dark:text-surface-elevated"
+    aria-hidden="true"
+  >
+    <kf-icon
+      name="bg-search"
+      class="absolute top-[10%] left-[4%] w-32 h-32 sm:w-48 sm:h-48 lg:w-64 lg:h-64 -rotate-12"
+    />
+    <span
+      class="absolute bottom-[12%] left-[5%] font-serif italic text-4xl sm:text-6xl lg:text-7xl -rotate-12"
+    >
+      flow
+    </span>
+    <kf-icon
+      name="bg-folder"
+      class="absolute top-[6%] right-[4%] w-36 h-36 sm:w-52 sm:h-52 lg:w-72 lg:h-72"
+    />
+    <kf-icon
+      name="bg-logo-k"
+      class="absolute bottom-[5%] right-[5%] w-32 h-40 sm:w-48 sm:h-56 lg:w-64 lg:h-72"
+    />
+  </div>
+</div>
