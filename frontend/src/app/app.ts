@@ -1,6 +1,7 @@
 import { Component, inject, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ThemeService } from './core/services/theme.service';
+import { LanguageService } from './shared/language/language.service';
+import { ThemeService } from './shared/theme/theme.service';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +12,6 @@ import { ThemeService } from './core/services/theme.service';
 })
 export class App {
   protected readonly themeService = inject(ThemeService);
+  protected readonly languageService = inject(LanguageService);
   protected readonly title = signal('KeikakuFlow');
 }

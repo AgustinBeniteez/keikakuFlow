@@ -24,7 +24,7 @@ frontend/
 └── src/app/
     ├── app.config.ts                         # Configuración global del proveedor
     ├── app.ts                                # Inicialización de LanguageService
-    └── core/services/language.service.ts     # Gestión del idioma activo y persistencia
+    └── shared/language/language.service.ts   # Gestión del idioma activo y persistencia
 ```
 
 ---
@@ -168,7 +168,7 @@ Para agregar un idioma nuevo (por ejemplo francés, `fr`):
 
 1. Crear el archivo `frontend/public/assets/i18n/fr.json` copiando la estructura de `es.json`.
 2. Añadir `'fr'` al array `langs` en `frontend/src/app/app.config.ts`.
-3. En `frontend/src/app/core/services/language.service.ts`:
+3. En `frontend/src/app/shared/language/language.service.ts`:
    - Añadir `'fr'` al tipo `AppLanguage`.
    - Añadir `{ code: 'fr', label: 'Français', short: 'FR' }` a `SUPPORTED_LANGUAGES`.
    - Incluir `'fr'` en el método `isSupported(...)`.
